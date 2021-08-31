@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import VideoAllProxy, VideoPublishProxy, Video
+from .models import VideoAllProxy, VideoPublishProxy
+
 
 
 class VideoAllAdmin(admin.ModelAdmin):
